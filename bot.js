@@ -9,7 +9,7 @@ const {
 const TOKEN = process.argv[2];
 
 const GUILD_ID = "1444407947005526170";
-const CHANNEL_ID = "1469673124550414366";
+const CHANNEL_ID = "1470504407010382028";
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildVoiceStates],
@@ -52,3 +52,4 @@ client.once("clientReady", async () => {
 });
 
 client.login(TOKEN).catch(console.error);
+
